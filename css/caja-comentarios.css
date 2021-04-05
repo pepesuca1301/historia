@@ -1,0 +1,16 @@
+.caja-comentario,
+.mostrar-comentarios {
+    margin: 5% 15%;
+    width: 40%;
+}
+
+.caja-comentario .entrada {
+    display: block;
+    width: 95%;
+    padding: 2%;
+    margin: 2%;
+}
+
+textarea {
+    resize: none;
+}

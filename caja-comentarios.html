@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja de comentarios</title>
+
+    <link rel="stylesheet" href="css/caja-comentarios.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="caja-comentario">
+        <form id="formulario">
+            <input type="text" name="uname" id="uname" class="entrada" placeholder="Ingrese su nombre" required>
+            <input type="email" name="email" id="email" class="entrada" placeholder="Ingrese su correo electtrónico" required>
+            <textarea name="comentario" id="comment" class="entrada" cols="30" rows="10" placeholder="Escribir comentario" required></textarea>
+
+            <button type="submit">Comentar</button>
+        </form>
+    </div>
+    <div class="mostrar-comentarios">
+        <h1>Comentarios <span id="contador-comentarios" data-count="0">(0)</span></h1>
+
+        <ul id="comentarios">
+            <span>Ningún comentario aun.</span>
+
+        </ul>
+
+    </div>
+    <script src="js/caja-comentarios.js"></script>
+</body>
+
+</html>

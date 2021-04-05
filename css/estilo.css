@@ -1,0 +1,97 @@
+/*-------------Contenido Principal------------*/
+
+#principal {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: 10px auto;
+}
+
+#publicaciones {
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin-top: 10px;
+    float: left;
+}
+
+.post {
+    width: 96%;
+    height: auto;
+    overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+
+.enlace-post {
+    text-decoration: none;
+}
+
+#publicaiones h2 .titulo-post {
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: 'calibri light';
+}
+
+#publicaciones .img-post {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#publicaciones .datos-publicaciones {
+    font-family: 'calibri light';
+    color: #000;
+}
+
+#publicaciones .parrafo-post {
+    font-family: 'calibri light';
+    font-size: 16px;
+    color: #848484;
+    padding: 5px;
+}
+
+#publicaciones .leer-mas {
+    background: #000;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#publicaciones .leer-mas:hover {
+    background: #0b3b39;
+    color: #fff;
+}
+
+#publicaciones .num-comentarios {
+    background: #0b3b39;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#publicaciones .enlace-paginacion {
+    text-decoration: none;
+    color: #0b3b39;
+}
+
+#publicaciones .enlace-paginacion:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,86 @@
+    header {
+        position: fixed;
+        /*le damos una posición fija(que no se mueva de con el scroll) */
+        width: 100%;
+        /*Va a tener un ancho del 100 % de la página*/
+        height: 105px;
+        /*Va a tener una altura de 105px de la página*/
+        background-color: black/*rgb(255, 188, 112);*/
+        /*El fondo de la cabecera*/
+    }
+    
+    nav {
+        margin: 3% auto 0;
+        /*aqúi deremos un magin-top del 3%, y que tanto el margin-right y margin-left estén en automático y tengan como valor inicial 0*/
+        position: relative;
+        /*El elemento tendrá posición relativa*/
+        width: 510px;
+        height: 50px;
+        background-color: rgb(255, 188, 112);
+        border-radius: 20px;
+        /*esta propiedad hace ver que tan redondeados deben estar los bordes*/
+        font-size: 0;
+        text-align: center;
+    }
+    
+    nav a {
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 50px;
+        height: 100%;
+        font-size: 20px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        color: brown;
+        cursor: pointer;
+    }
+    
+    nav .animation {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        transition: all .5s ease 0s;
+        border-radius: 20px;
+    }
+    
+    a:nth-child(1) {
+        width: 100px;
+    }
+    
+    a:nth-child(2) {
+        width: 100px;
+    }
+    
+    a:nth-child(3) {
+        width: 100px;
+        margin-right: 6%;
+    }
+    
+    nav .start-INICIO,
+    a:nth-child(1):hover~.animation {
+        width: 100px;
+        left: 73px;
+        background-color: #1abc9c;
+    }
+    
+    nav .start-TEMAS,
+    a:nth-child(2):hover~.animation {
+        width: 110px;
+        left: 167px;
+        background-color: #1abc9c;
+    }
+    
+    nav .start-Formulario,
+    a:nth-child(3):hover~.animation {
+        width: 195px;
+        left: 260px;
+        background-color: #1abc9c;
+    }
+    
+    span {
+        color: #2BD6B4;
+    }

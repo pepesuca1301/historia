@@ -1,0 +1,358 @@
+    /*(línea 21) Esto hará que se resalte el sitio ocupado por el texto*/
+    
+    .cuerpo {
+        /*le damos una altura máxima del 100%*/
+        max-height: 100%;
+        /*le damos un ancho del 95% de la página*/
+        max-width: 95%;
+        /*damos un margen en la parte de arriba del cuerpo*/
+        margin-top: 2%;
+        /*damos un margen al lado izquierdo*/
+        margin-left: 2.5%;
+        /*le damos un fondo de color oldlace*/
+        background: oldlace;
+    }
+    /*(línea 23)Todos los elementos con la etiqueta "titulo". 
+Título central: Batalla de Normandía*/
+    
+    .titulo {
+        /*el color de los elementos que tengan la clase "titulo"*/
+        color: #6e6e6e;
+        /*el tamaño de la fuente*/
+        font-size: 22px;
+        /*familia o tipo de la fuente*/
+        font-family: 'calibri light';
+        /*el texto se centrará*/
+        text-align: center;
+    }
+    /*(línea 24/línea 166)Aplicaremos estilo a la etiqueta p*/
+    
+    .cuerpo p {
+        /*damos un relleno arriba del elemento*/
+        padding-top: 10px;
+        /*damos un relleno a la izquierda*/
+        padding-left: 5%;
+        /*damos un relleno a la derecha*/
+        padding-right: 5%;
+    }
+    /*(línea 35) moveremos a la derecha la imágen*/
+    
+    .beligerantes .beligerante-1 img {
+        /*movemos la imagen a la derecha*/
+        float: right;
+        /*damos un relleno a la derecha*/
+        padding-right: 5%;
+    }
+    /*(línea 36)La clase texto1 está dentro de un div, los estilos ayudarán a colocar todo el texto
+a la izquierda del cuerpo*/
+    
+    .beligerantes .beligerante-1 .texto1 {
+        /*movemos el texto a la izquierda*/
+        float: left;
+        /*damos un relleno a la izquierda*/
+        padding-left: 5%;
+    }
+    /*(línea 37)se le aplicará estilos a la clase lista (FUERZAS ESTADOUNIDENSE...) que está dentro 
+de la clase beligerante-1 y esta asu vez dentro de la clase beligerantes*/
+    
+    .beligerantes .beligerante-1 .lista {
+        /*alinemaos el texto justificandolo*/
+        text-align: justify;
+        /*damos un margen a la izquierda*/
+        margin-left: 4%;
+    }
+    /*(línea 38) daremos un estilo en la etiqueta p*/
+    
+    .beligerantes .beligerante-1 p {
+        /*damos un relleno hacia arriba*/
+        padding-top: 10px;
+        /*damos un relleno a la izquierda*/
+        padding-left: 5%;
+        /*damos un relleno a la derecha*/
+        padding-right: 5%;
+    }
+    /*(línea 42)la clase sublista*/
+    
+    .beligerantes .beligerante-1 .sublista {
+        /*justificamos el texto*/
+        text-align: justify;
+        /*damos un margen a la izquierda*/
+        margin-left: 10%;
+        /*damos un relleno hacia la derecha*/
+        padding-right: 20px;
+    }
+    /*línea 59*/
+    
+    .beligerantes .beligerante-2 img {
+        /*movemos la imágen hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda de la imágen*/
+        margin-left: 5%;
+    }
+    /*línea 60*/
+    
+    .beligerantes .beligerante-2 .texto2 {
+        /*movemos el texto hacia la derecha*/
+        float: right;
+        /*damos un relleno hacia la derecha*/
+        padding-right: 10%;
+    }
+    /*línea 61*/
+    
+    .beligerantes .beligerante-2 .lista {
+        /*justificamos el texto*/
+        text-align: justify;
+        /*damos un margen a la izquierda*/
+        margin-left: 8%;
+    }
+    /*línea 62*/
+    
+    .beligerantes .beligerante-2 p {
+        /*damos un relleno hacia arriba*/
+        padding-top: 10px;
+        /*damos un relleno hacia la izquierda*/
+        padding-left: 9%;
+    }
+    /*línea 66*/
+    
+    .beligerantes .beligerante-2 .sublista {
+        /*justificamos el texto*/
+        text-align: justify;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 16%;
+        /*damos un relleno hacia la derecha*/
+        padding-right: 20px;
+    }
+    /*(línea 91) colocamos la imágen hacia la derecha y le
+damos un margin a la derecha del 5%*/
+    
+    .antecedentes .antecedente-1 img {
+        /*movemos la imágen hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+    }
+    /*(línea 92) colocamos el texto a la izquierda, le damos 
+un margin a la izquierda del 5% y hacemos que el texto solo 
+ocupe un 45% de su contenedor*/
+    
+    .antecedentes .antecedente-1 .texto1 {
+        /*movemos el texto hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+        /*damos un ancho máximo del 45%*/
+        max-width: 45%;
+        /*damos una altura máxima de 350px (altura de la imágen)*/
+        max-height: 350px;
+    }
+    /*(línea 113)*/
+    
+    .antecedentes .antecedente-2 img {
+        /*movemos la imágen a la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+    }
+    /*(línea 114)*/
+    
+    .antecedentes .antecedente-2 .texto2 {
+        /*movemos el texto hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+        /*damos un ancho máximo del 65% a su contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 127)*/
+    
+    .antecedentes .antecedente-3 img {
+        /*movemos la imagen hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+    }
+    /*(línea 128)*/
+    
+    .antecedentes .antecedente-3 .texto3 {
+        /*movemos el texto hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+        /*damos un acho máximo del 65% al contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 147)*/
+    
+    .antecedentes .antecedente-4 img {
+        /*movemos la imágen hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+    }
+    /*(línea 148)*/
+    
+    .antecedentes .antecedente-4 .texto4 {
+        /*movemos el texto hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+        /*damos un ancho máximo del 65% a su contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 178) Ahora daremos estilos a la imágen que está
+en el contenedor section que tiene como clase => utah*/
+    
+    .desembarcos .utah img {
+        /*movemos la imágen hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+    }
+    /*(línea 178) */
+    
+    .desembarcos .utah .texto1 {
+        /*movemos el texto a la derecha*/
+        float: right;
+        /*damos un margen ha la derecha*/
+        margin-right: 5%;
+        /*damos un ancho máximo del 65% al contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 181) damos estilos a la etiquete li*/
+    
+    .desembarcos li {
+        /*pondrá el texto en negrita*/
+        font-weight: bold;
+        /*las listas serán enlistadas (vale la redundancia) con un estilo
+    en este caso será cuadrado*/
+        list-style: square;
+    }
+    /*(línea 187)*/
+    
+    .desembarcos .omaha img {
+        /*movemos la imágen hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+    }
+    /*(línea 189)*/
+    
+    .desembarcos .omaha .texto2 {
+        /*movemos el texto hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+        /*damos un ancho máximo del 65% al contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 199)*/
+    
+    .desembarcos .gold img {
+        /*movemos la imágen a la izquierda*/
+        float: left;
+        /*damos un margen a la izquierda*/
+        margin-left: 5%;
+    }
+    /*(línea 200)*/
+    
+    .desembarcos .gold .texto3 {
+        /*movemos el texto hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+        /*damos un ancho máximo del 65% al contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 210)*/
+    
+    .desembarcos .juno img {
+        /*movemos la imágen hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+    }
+    /*(línea 211)*/
+    
+    .desembarcos .juno .texto4 {
+        /*movemos el texto hacia la izquierda*/
+        float: left;
+        /*damos un margin hacia la izquierda*/
+        margin-left: 5%;
+        /*damos un ancho máximo del 65% al contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 222)*/
+    
+    .desembarcos .sword img {
+        /*movemos la imágen hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+    }
+    /*(línea 223)*/
+    
+    .desembarcos .sword .texto5 {
+        /*movemos el texto hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+        /*damos un ancho máximo del 65% al contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 238)*/
+    
+    .desembarcos .caen img {
+        /*movemos la imágen hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+    }
+    /*(línea 239)*/
+    
+    .desembarcos .caen .texto6 {
+        /*movemos el texto hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+        /*damos un ancjo máximo del 65% al contendor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250px;
+    }
+    /*(línea 255)*/
+    
+    .desembarcos .penetracion img {
+        /*movemos la imágen hacia la izquierda*/
+        float: left;
+        /*damos un margen hacia la izquierda*/
+        margin-left: 5%;
+    }
+    /*(línea 256)*/
+    
+    .desembarcos .penetracion .texto7 {
+        /*movemos el texto hacia la derecha*/
+        float: right;
+        /*damos un margen hacia la derecha*/
+        margin-right: 5%;
+        /*damos un ancho máximo del 65% al contenedor*/
+        max-width: 65%;
+        /*damos una altura máxima de 250px (altura de la imágen)*/
+        max-height: 250 px;
+    }

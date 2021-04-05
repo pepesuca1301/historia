@@ -1,0 +1,36 @@
+.formulario {
+    /*Le damos un foondo con un color*/
+    background-color: darkturquoise;
+    /*le damos un ancho máximo*/
+    max-width: 500px;
+    /*damos un maegen automático, esto hará que el navegador
+    elija el margen que tendrá el elemento, en este caso la elección
+    de estos margenes hará que el elemento se centrará*/
+    margin: auto;
+    /*damos */
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.formulario h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.items {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.formulario p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton {
+    width: 100%;
+    height: 30px;
+    background-color: moccasin;
+}

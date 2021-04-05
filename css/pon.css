@@ -1,0 +1,76 @@
+.fieldcontain {
+    width: 400px;
+    /*ancho de la etiqueta de formulario*/
+    background-color: #e4e7d6;
+    /*color de fondo del formulario*/
+    padding: 40px;
+    /*bordes para de la caja de formulario*/
+    margin: auto;
+    /*hace que la caja se posicione en el centro*/
+    margin-top: 35px;
+    /*altura entre la parte superior del contenedor y donde empieza el formulario*/
+    border-radius: 10px;
+    /*esquinas de la caja de formulario*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*tipo de letra*/
+}
+
+.fieldcontain h3 {
+    font-size: 22px;
+    /*tamaño de la fuente*/
+    margin-bottom: 20px;
+    /*medida para el espacio de abajo de la letra*/
+}
+
+.controls {
+    width: 100%;
+    /*ancho de los <input>*/
+    padding: 10px;
+    /*ancho para los bordes de las etiquetas input*/
+    border-radius: 4px;
+    /*esquinas de la caja de formulario*/
+    margin-bottom: 16px;
+    /*espacio que se le atribuye a cada <input>*/
+    border: 1px solid #1f53c5;
+    /*marco para cada <input>*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*tipo de letra*/
+    font-size: 18px;
+    /*tamaño de la fuente*/
+}
+
+.fieldcontain p {
+    height: 30px;
+    /*espacio debajo del párrafo*/
+    text-align: center;
+    /*texto al centro*/
+    font-size: 18px;
+    /*tamaño de la fuente de letra*/
+}
+
+.fieldcontain a {
+    color: #000;
+    /*color de la fuente*/
+    text-decoration: none;
+    /*elimanos las marcas de los links*/
+}
+
+.fieldcontain a:hover {
+    color: black;
+    /*color cuando está el mouse encima*/
+    text-decoration: underline;
+    /*se subraya*/
+}
+
+.fieldcontain .botons {
+    width: 100%;
+    /*ocupara todo el espacio posible*/
+    background: #a6b6da;
+    /*color*/
+    border: none;
+    /*anulamos el borde predeterminado el botón*/
+    padding: 12px;
+    /*agregamos un espacio a todos los bordes del input*/
+    font-size: 16px;
+    /*tamaño de la letra*/
+}

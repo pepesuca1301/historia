@@ -1,0 +1,12 @@
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+.texto-slides {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    right: 35%;
+    font-weight: bold;
+}
